@@ -258,3 +258,40 @@ The signal size and its download time from your current position (you can check 
 For example, this signal can be downloaded immediately at optimal speed (20 MB in 4 hours), even though the ship is still more than 5.8 AU away from the signal!
 
 If the download speed doesn’t reach at least 1 MB / 12 minutes, I recommend continuing the flight, or upgrading your antenna modules and/or staffing them with better-trained astronauts.
+
+## Bonus: Signals in the Discord channel 'adura-channel'
+
+A.D.U.R.A is a Discord chat bot that automatically displays important events in the game. At irregular intervals, it posts approximate positions of interesting signals in space. Each such message contains a link to a page that generates a private waypoint for that position.
+
+> **Warning:**  
+> Such a waypoint is also only approximate, so during the flight you will need more precise navigation according to the previous chapters.
+
+Of course, the prerequisite for following these messages is to register and join the game's [Official Discord server](https://discord.com/invite/xrVe4fB) for Outspace.
+
+1. Open Discord (either via a web browser or the Discord app) and find the `adura-channel`.
+2. Look for relatively recent messages about detected signals.  
+   A message looks approximately like this:
+
+   ![](../assets/images/lov_signalov_images/2025-11-30-12-07-26.png)
+
+   It’s important to notice the following details:
+     - The signal ID number
+     - The system in which the signal is located (for a beginner this is definitely **Sol** – the Solar System). Only look for signals in systems where you have stations and can actually get to them!
+     - The contents of the signal – that is, the name of the item whose blueprint the signal contains.
+     - The link to create the waypoint (*SAVE WAYPOINT*)
+
+3. If a signal interests you, click the *SAVE WAYPOINT* link.  
+   A new browser window (or tab) will open.  
+   **DON'T CLICK ANYTHING**, just wait a moment and watch the screen.
+4. After a while, information about the successful creation of the waypoint will appear in the upper middle part of the screen:
+
+   ![](../assets/images/lov_signalov_images/2025-11-30-11-37-33.png)
+
+5. You can close this window (or tab) and return to the original game window.
+6. Open the Sector Map and display the list of waypoints.  
+   At the very top you should see your new waypoint:
+
+   ![](../assets/images/lov_signalov_images/2025-11-30-11-40-53.png)
+
+7. I recommend clicking on the waypoint and using the context menu to *rename* it, for example in our case to *87854_Fasteners-GR5*.
+8. From here, continue in the standard way as described above.

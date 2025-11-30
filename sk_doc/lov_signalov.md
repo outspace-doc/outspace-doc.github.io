@@ -258,3 +258,40 @@ Veľkosť signálu a čas jeho sťahovania z aktuálnej pozície (dá sa kontrol
 Napríklad tento signál je možné okamžite stiahnuť optimálnou rýchlosťou (20 MB za 4 h), hoci je loď od signálu vzdialená ešte viac ako 5,8 AU!
 
 Ak čas sťahovania nedosahuje rýchlosť 1 MB / 12 min, odporúčam pokračovať v lete, prípadne vylepšiť anténové moduly a/alebo ich osadiť viac trénovanými astronautami.
+
+## Bonus: Signály v Discord kanáli 'adura-channel'
+
+A.D.U.R.A je Discord chat bot, ktorý automaticy zobrazuje dôležité udalosti v hre. V nepravidelných intervaloch uverejňuje približné pozície zaujímavých signálov vo vesmíre. Každá takáto správa obsahuje odkaz na stránku, pomocou ktorej sa vygeneruje súkromný waypoint na danú pozíciu.
+
+> **Upozornenie:**  
+> Takýto waypoint je tiež len približný, takže počas letu bude nutná presnejšia navigácia podľa predchádzajúcich kapitol.
+
+Samozrejme, predpokladom sledovania týchto správ je registrácia a pripojenie sa k [Oficiálnemu Discord serveru](https://discord.com/invite/xrVe4fB) hry Outspace.
+
+1. Otvor Discord (či už cez webový prehliadač alebo aplikáciu Discord) a nájdi kanál `adura-channel`.
+2. Hľadaj relatívne nedávne správy o detegovaných signáloch.  
+   Správa vyzerá približne takto:
+
+   ![](../assets/images/lov_signalov_images/2025-11-30-12-07-26.png)
+
+   Dôležité je všimnúť si nasledovné detaily:
+     - ID číslo signálu
+     - Sústavu, v ktorej sa signál nachádza (pre začiatočníka je to určite **Sol** - Slnečná sústava). Signály hľadaj len v sústavách, kde máš vytvorené stanice a vieš sa k nim dostať!
+     - Obsah signálu - čiže názov predmetu, ktorého výrobný plán daný signál obsahuje.
+     - Odkaz na vytvorenie signálu (*SAVE WAYPOINT*)
+
+3. Ak ťa signál zaujal, klikni na odkaz *SAVE WAYPOINT*.  
+   Otvorí sa nové okno (alebo záložka) internetového prehliadača.  
+   **NIČ NEKLIKAJ**, len chvíľu čakaj a sleduj obrazovku.
+4. Po chvíli sa v strednej hornej časti objaví informácia o úspešnom vytvorení waypointu:
+
+   ![](../assets/images/lov_signalov_images/2025-11-30-11-37-33.png)
+
+5. Okno (alebo záložku) môžeš zavrieť a vrátiť sa do pôvodného okna s hrou.
+6. Otvor Sektorovú mapu a zobraz zoznam waypointov.
+   Úplne na vrchu by sa mal nachádzať tvoj nový waypoint:  
+
+   ![](../assets/images/lov_signalov_images/2025-11-30-11-40-53.png)
+
+7. Doporučujem na waypoint kliknúť a pomocou kontextového menu *premenovať*, napr. v našom pípade na *87854_Fasteners-GR5*.
+8. Ďalej už pokračuj štandardným spôsobom, ako bolo popísané vyššie.
