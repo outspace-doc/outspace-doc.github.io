@@ -5,4 +5,4 @@
 [Outspace Documentation (EN)](en_doc/README.md)
 
 
-_Posledné zmeny: 30 Nov 2025_
+_Posledné zmeny: 1 Dec 2025_
