@@ -1,8 +1,6 @@
 # Outspace
 
-[Outspace Dokumentácia (SK)](sk_doc/README.md)
+[Outspace Dokumentácia (SK)](https://outspace-doc.github.io/sk_doc/)  
+[Outspace Documentation (EN)](https://outspace-doc.github.io/en_doc/)
 
-[Outspace Documentation (EN)](en_doc/README.md)
-
-
-_Posledné zmeny: 30 Nov 2025_
+Posledné zmeny: 2 Dec 2025

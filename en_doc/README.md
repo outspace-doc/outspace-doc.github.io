@@ -1,4 +1,5 @@
 # Outspace Documentation (EN)
   
-1. [**Combat Ships and Combat Tactics**](boj.md)
-2. [**Signal Hunting**](lov_signalov.md)
+1. [**Building a station**](stavba_stanice.md)
+2. [**Combat Ships and Combat Tactics**](boj.md)
+3. [**Signal Hunting**](lov_signalov.md)

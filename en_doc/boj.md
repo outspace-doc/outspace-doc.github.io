@@ -34,7 +34,7 @@ We will build the first combat ship on the AMTR platform. Notice that in Source 
 
 Incoming attacks from enemies are randomly distributed among the ship’s modules and reduce their health points (HP). Once **any** module reaches 0 HP (i.e. it’s destroyed), **you lose the entire ship, including cargo and crew**. While this is quite an instructive experience to go through once, you should understand why it happened.
 
-![](boj_images/2025-11-29-17-43-19.png)
+![](../assets/images/boj_images/2025-11-29-17-43-19.png)
 
 > **Tip:**  
 > In the [module list](https://source.outspacegame.com/en/spacecraft/modules/list/) on Source, you can click any tag next to a module and you’ll get a filtered list of only those modules that have that tag.
