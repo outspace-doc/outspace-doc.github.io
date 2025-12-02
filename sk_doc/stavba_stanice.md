@@ -27,13 +27,18 @@ Prvú stanicu si nový hráč postaví vrámci tutoriálu, ktorý je súčasťou
 
 Výber pozície novej stanice je *veľmi dôležitá*, pretože po postavení sa stanica **nedá presunúť**. Existuje len možnosť *stanicu rozobrať*, pozbierať z nej materiál a následne postaviť *novú stanicu* na inom mieste.
 
-Pravidlá hovoria, že novú stanicu *nie je možné postaviť* v *"blízkosti"* inej stanice, či už hráčskej alebo NPC. Táto vzdialenosť sa líši podľa toho, či daná stanica patrí hráčovi alebo NPC. V každom prípade je vhodné postaviť si stanicu na mieste, kde je relatívny kľud.
+Pravidlá hovoria, že novú stanicu *nie je možné postaviť* v *"blízkosti"* inej stanice, či už hráčskej alebo NPC. Táto vzdialenosť sa líši podľa toho, či daná stanica patrí cudziemu hráčovi, hráčovi z rovnakej zóny alebo NPC. V každom prípade je vhodné postaviť si stanicu na mieste, kde je relatívny kľud.
+
+> **Stanicu nemôžeš postaviť bližšie ako:**
+> 80km od vlastnej alebo inej stanice patriacej do tvojej zóny
+> 250km od stanice patriacej hráčovi z inej zóny
+> 5500km od NPC stanice
 
 Keďže základom úspešného postupu v hre ťažba a spracovanie vyťaženého materiálu, je veľmi výhodné mať stanicu:
 - v blízkosti fragment, ktorého čistota je (ideálne) 100%
 - v blízkosti NPC stanice, kde bude možné vyťažený materiál spracovať
 
-> Tieto odporúčania nemusia platiť pre hráčov, ktorí plánujú veľmi skorý vstup do hráčskej zóny, pretože vrámci zóny je možné sa medzi stanicami presúvať cez stázovú kartu a taktiež využívať rozvinuté stanice hráčov zóny na spracovanie materiálu a výrobu predmetov.
+> Tieto odporúčania nemusia dodržať hráči, ktorí plánujú veľmi skorý vstup do hráčskej zóny, pretože vrámci zóny je možné sa medzi stanicami presúvať cez stázovú kartu a taktiež využívať rozvinuté stanice hráčov zóny na spracovanie materiálu a výrobu predmetov.
 
 ### Povinné bloky
 
@@ -65,11 +70,13 @@ Niektoré bloky umožňujú pridať tzv. *zariadenia*. Sú to akési rozšíreni
 1. Zadokuj na stanici ľubovoľnou loďou
 2. Otvor Mostík
 3. Myšou sa nastav na požadovaný blok a v plávajúcom okne vyber Nové Zariadenie
+
    ![](../assets/images/stavba_stanice_images/2025-12-01-13-35-27.png)
-4. V ďalšom okne si môžeš zvoliť zariadenie, ktoré chceš na daný blok doplniť
+
+5. V ďalšom okne si môžeš zvoliť zariadenie, ktoré chceš na daný blok doplniť
    > Počet a typy zariadení, ktoré sa dajú na konkrétny blok nainštalovať, sú pevne dané typom bloku.
    > Preto nie je možné inštalovať iné zariadenie, príp. väčší počet zvoleného zariadenia.
-5. Každé zariadenie potrebuje na postavenie materiál, preto stavba nezačne, kým na stavbu nepridáš požadované množstvá materiálov
+6. Každé zariadenie potrebuje na postavenie materiál, preto stavba nezačne, kým na stavbu nepridáš požadované množstvá materiálov
 
 ## Staničné zbrane
 
@@ -198,3 +205,49 @@ Asi najdôležitejším nastavením každej stanice je jej **názov**. Ten je mo
 Okrem toho je možné stanicu v tejto obrazovke
 - *natočiť*
 - *rozobrať* (pozor, znamená de-facto *zrušenie stanice*!!)
+
+### Nastavenie útoku
+
+V tejto časti môže majiteľ stanice určiť, na koho budú staničné zbrane útočiť. Samozrejme, to platí len v prípade, ak boli bloky zbraní vybudované a osadené zbraňami. Na výber sú 4 možnosti útoku:
+
+![](../assets/images/stavba_stanice_images/2025-12-01-20-17-02.png)
+
+Po výbere jednej z možností bude stanica útočiť na objekty, ktoré
+- nepatria majiteľovi (ak na to nemáš špeciálny dôvod, túto možnosť si **nevyberaj**!)
+- nepatria majiteľovi alebo jeho spojencom (veľmi agresívne nastavenie)
+- sú považované za nepriateľov (hráči so statusom *Nepriateľ* a všetky druhy Zla) - toto je doporučená voľba
+- zákaz útočenia (zbrane sú deaktivované)
+
+### Viditeľnosť stanice
+
+Nastavenie viditeľnosti stanice určuje, ktorí hráči uvidia danú stanicu na radare, v sektorovej mape a vo výsledkoch globálneho vyhľadávania (klávesová skratka `U`). Toto nastavenie sa nachádza v rovnakej záložke ako *Nastavenie útoku*:
+
+![](../assets/images/stavba_stanice_images/2025-12-01-20-25-44.png)
+
+Na výber sú nasledovné možnosti, pre koho je stanica viditeľná:
+- nikto okrem majiteľa
+- majiteľ a hráči patriaci do rovnakej zóny
+- majiteľ a hráči so statusom *Spojenec*
+- majiteľ a hráči so statusom *Spojenec* a *Neutrálny*
+- všetci hráči
+
+> **Dôležité:**
+> Ak chcete obchodovať s NPC hráčmi, viditeľnosť vašej stanice musí byť nastavená na *všetci hráči*. V opačnom prípade NPC hráči stanicu nedokážu nájsť, a teda ani na nej nakupovať.
+
+## Výmena veliteľského bloku
+
+Keď hráč nadobudne viac skúseností, zarobí viac peňazí a má dostatočné zásoby stavebného materiálu, môže svoj veliteľský blok vymeniť za lepší, príp. úplne zmeniť typ bloku. Veliteľské bloky vyššej úrovne spravidla poskytujú lepšie základné parametre pre zisk a kapacitu energie, údržbu a ubytovanie.
+
+> Výmena veliteľského bloku prebehne tak, že aktuálny blok sa *rozoberie*, pričom sa stavebný materiál 'vyhodí do vesmíru v okolí stanice'. Tento materiál je možné pozbierať a znova použiť na stavbu nového veliteľského bloku. To znamená, že pri výmene bloku nie je nutné vlastniť celkové množstvo materiálu potrebné na stavbu stanice.
+
+1. Po zadokovaní na stanici otvor Mostík
+2. Kurzor myši presuň nad veliteľský blok
+3. V hornej časti zvoľ tlačidlo na výmenu bloku
+
+   ![](../assets/images/stavba_stanice_images/2025-12-02-09-56-14.png)
+
+4. V novom okne vyber nový veliteľský blok
+5. Po potvrdení vydokuj s (nákladnou) loďou, pozbieraj materiál v okolí stanice a použi ho na stavbu nového bloku
+
+> **Dôležité:**
+> Počas stavby nového bloku stanica *nemá veliteľský blok* ani žiadne z jeho zariadení. Stanica preto až do okamihu dokončenia stavby bloku nemusí poskytovať niektoré služby, ak ich neposkytuje iný blok (napr. Hangár).
